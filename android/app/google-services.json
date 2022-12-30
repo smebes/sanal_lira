@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "461271701119",
+    "project_id": "sanal-lira",
+    "storage_bucket": "sanal-lira.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461271701119:android:b73a3bf82f035ad739114a",
+        "android_client_info": {
+          "package_name": "com.example.sanal_lira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461271701119-h62ksj796ct99p1pa7n1c6ur7a2vufb5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9rev2YEHtlyVIMxMvPp0p41vfaur9ubI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461271701119-h62ksj796ct99p1pa7n1c6ur7a2vufb5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
