@@ -3,6 +3,7 @@ import 'package:sanal_lira/core/route_names.dart';
 import 'package:sanal_lira/screens/home_screen.dart';
 import 'package:sanal_lira/screens/login_screen.dart';
 import 'package:sanal_lira/screens/page_navigator.dart';
+import 'package:sanal_lira/screens/register.dart';
 import 'package:sanal_lira/screens/splash_screen.dart';
 
 class AppRouter {
@@ -30,10 +31,10 @@ class AppRouter {
           () => const LoginScreen(),
         );
 
-      // case RouteNames.registerScreenRoute:
-      //   return _route(
-      //     () => const RegisterScreen(),
-      //   );
+      case RouteNames.registerScreenRoute:
+        return _route(
+          () => const RegisterScreen(),
+        );
 
       default:
         return _route(

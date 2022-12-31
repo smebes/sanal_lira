@@ -1,17 +1,25 @@
 import 'package:flutter/cupertino.dart';
 
 class AppInfo extends ChangeNotifier {
-  int countTotalTrips = 0;
-  List<String> historyTripsKeysList = [];
+  String bankAccountName = '';
+  String descriptionNo = '';
+  String ibanNo = '';
 
-  updateOverAllTripsCounter(int overAllTripsCounter) {
-    countTotalTrips = overAllTripsCounter;
+  updateBankAccountName(String bankAccountName) {
+    bankAccountName = bankAccountName;
+    print(bankAccountName);
     notifyListeners();
   }
 
-  updateOverAllTripsKeys(List<String> tripsKeysList) {
-    historyTripsKeysList = tripsKeysList;
+  updateIbanNo(String ibanNo) {
+    ibanNo = ibanNo;
+    print(ibanNo);
+    notifyListeners();
+  }
 
+  updateDescriptionNo(String descriptionNo) {
+    descriptionNo = descriptionNo;
+    print(descriptionNo);
     notifyListeners();
   }
 }

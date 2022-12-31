@@ -31,7 +31,10 @@ class _PageNavigatorState extends State<PageNavigator> {
         selectedItemColor: kSecondaryColor,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.house), label: "Home"),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Setting"),
+          BottomNavigationBarItem(icon: Icon(Icons.transform), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.edit_square), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.wallet), label: "Home"),
+          BottomNavigationBarItem(icon: Icon(Icons.settings), label: "Home"),
         ],
         currentIndex: currentIndex,
         onTap: (index) {
